@@ -48,4 +48,8 @@ The data-set is also based on hypotheses of store level and product level. Where
 ![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/main/screenshots/Screenshot%20(2).png)
 
 
-
+# How to run in Your local System
+Intial requirements:Python
+Download the code as zip and unzip
+run the command in command prompt '''pip install requirements.txt'''
+after completion run the command '''python managae.py runserver''' 
