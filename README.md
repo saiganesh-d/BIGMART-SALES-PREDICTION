@@ -49,7 +49,7 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 
 # How to run in Your local System
-Intial requirements:Python
-Download the code as zip and unzip
-run the command in command prompt '''pip install requirements.txt'''
-after completion run the command '''python managae.py runserver''' 
+Intial requirements:Python<br>
+Download the code as zip and unzip<br>
+run the command in command prompt ``` python pip install requirements.txt``` <br>
+after completion run the command ``` python python managae.py runserver```  <br>
