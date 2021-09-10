@@ -1,0 +1,989 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Ganesh Dokala</title>
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sai Ganesh Dokala's web portfolio" />
+    <meta name="keywords" content="resume, cv, portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="/static/assets/images/LOGO2.png">
+
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'assets/icons/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{'% static /assets/plugins/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="{% static '/assets/plugins/css/animate.css' %}">
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="{% static '/assets/plugins/css/owl.css'%}">
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="/static/assets/plugins/css/jquery.fancybox.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+
+    <!-- Colors -->
+    <link rel="stylesheet" href="{% static 'assets/css/colors/blue-munsell.css' %}" title="blue-munsell">
+
+    <style>
+        h2, h3, h4, li, p {
+            color: #100e17;
+        }
+        a:hover{
+            color: rgb(177, 43, 143);
+
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- Start Loader -->
+    <div class="section-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- End Loader -->
+
+   <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header" style="background-color: rgba(255, 255, 255, 0.8)">
+
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mh-nav nav-btn justify-content-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bricks" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2H15V1H5.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z"/>
+                            </svg>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:white;">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a  class="nav-link" href="#mh-home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-service">Interests</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-experience">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  class="nav-link" href="#mh-portfolio"><u>Projects</u> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-certification">courses&certfications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/static/assets/sai_ganesh_resume.pdf" target="_blank">Resume</a>
+                            </li>
+                            >
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="mh-home image-bg" id="mh-home">
+        <div style="background-color: rgba(255, 255, 255, 0.9);">
+            <div class="container">
+                <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
+                    <div class="col-sm-6">
+                        <div class="mh-header-info">
+                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                <span style="color: white">Hello, I'm</span>
+                            </div>
+
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Sai Ganesh Dokala</h2>
+                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"></h4>
+
+                            <ul>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i style="font-size: 20px;" class="fa fa-envelope fa-1x"></i><a href="mailto:saiganesh94dokala@gmail.com">saiganesh94dokala@gmail.com</a></li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i style="font-size: 20px;" class="fa fa-phone fa-1x"></i><a>+91 9441784016</a></li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i style="font-size: 20px;" class="fa fa-map-marker fa-1x"></i><a>India</a></li>
+                            </ul>
+
+                            <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <li><a href="https://www.linkedin.com/in/sai-ganesh-dokala-052581154//" target="_blank"><i style="font-size: 25px;" class="fa fa-linkedin fa-5x"></i></a></li>
+                                <li><a href="https://github.com/saiganesh-d" target="_blank"><i style="font-size: 25px;" class="fa fa-github fa-5x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <div class="img">
+                                <img src="/static/assets/images/rsz_myprofile1.png" alt="saiganesh" width="360px">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-about" id="mh-about">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                        <img src="/static/assets/images/ab-img.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-about-inner">
+                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Looking for career opportunities where I can apply my knowledge and skills in data science, programming, and database management alongside my initiative, dependability, and adaptability to further help the company’s productivity in achieving its set goals. I am good at...</p>
+                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <ul>
+                                <h5>programming</h5>
+                                    <li><span>Python</span></li>
+                                
+                                    <li><span>Machine Learning</span></li>
+                                
+                                    <li><span>Data Structures</span></li>
+                                
+                                    <li><span>Algorithms</span></li>  
+                                
+                            </ul>
+                            <ul>
+                                <h5>front-end</h5>
+
+                                <li><span>Html5</span></li>
+                                
+                                <li><span>CSS</span></li>
+                                
+                                <li><span>Java Script</span></li>
+
+                            </ul>
+                            <ul>
+                                <h5>back-end</h5>
+                                
+                                <li><span>Django</span></li>
+                                
+                                <li><span>Flask</span></li>
+                            </ul>
+                            <ul>
+                                <h5>Databases</h5>
+
+                                <li><span>MySQL</span></li>
+                                
+                                <li><span>MongoDB</span></li>
+
+
+                            </ul>
+
+                            <ul>
+                                <h5>Libraries/frameworks</h5>
+                                
+                                <li><framworks><span>django - python</span></framworks></li>
+                                
+                                <li><framworks><span>pandas - python</span></framworks></li>
+                                
+                                <li><framworks><span>numpy - python</span></framworks></li>
+                                
+                                <li><framworks><span>scikit - python</span></framworks></li>
+                                
+                                <li><framworks><span>matplotlib&seaborn - python</span></framworks></li>
+                                
+                            </ul>
+                        </div>
+                        <a href="/static/assets/sai_ganesh_resume.pdf" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" target="_blank">View Resume<i class="fa fa-file"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-service" id="mh-service">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <h2>What I do</h2>
+                </div>
+                
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-robot" ></i>
+                            <img style="width:20%;" src="media\ml.png" alt="">
+                            <h3 style="color: white;">Machine Learning</h3>
+                            <p style="color: white;">
+                                Can do data Visualisation and analysis and built models.
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-code" style="color: #ed7256"></i>
+                            <h3 style="color: white;">Web Development</h3>
+                            <p style="color: white;">
+                                As a web developer, I can built scalabe full stack applications from scratch as well utilizing frameworks
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-git" style="color: green"></i>
+                            <h3 style="color: white;">Open Source Contribution</h3>
+                            <p style="color: white;">
+                                As an enthusiast I am actively particpating in open source events and contributing to open source projects.
+                            </p>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-skills" id="mh-skills">
+        <div class="home-v-img">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title text-center col-sm-12">
+                        <!--<h2>Skills</h2>-->
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-skills-inner">
+                            <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <h3>Technical Skills</h3>
+                                <div class="each-skills">
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Python</div>
+                                                    <div class="percentagem-num">86%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 86%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Django</div>
+                                                    <div class="percentagem-num">80%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 80%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Pandas</div>
+                                                    <div class="percentagem-num">88%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 88%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Machine Learning</div>
+                                                    <div class="percentagem-num">60%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 60%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">MySQL</div>
+                                                    <div class="percentagem-num">90%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 90%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">MongoDB</div>
+                                                    <div class="percentagem-num">50%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 50%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Data Structures</div>
+                                                    <div class="percentagem-num">70%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 70%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Algorithms</div>
+                                                    <div class="percentagem-num">60%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 60%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Javascript</div>
+                                                    <div class="percentagem-num">60%</div>
+                                                </div>
+                                                <div class="progressBar">
+                                                    <div class="percentagem" style="width: 60%;"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <h3>Professional Skills</h3>
+                            <ul class="mh-professional-progress">
+                                
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                        <div class="pr-skill-name">Initiative</div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="85"></div>
+                                        <div class="pr-skill-name">Team work</div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="85"></div>
+                                        <div class="pr-skill-name">Communication</div>
+                                    </li>
+                                
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="90"></div>
+                                        <div class="pr-skill-name">Dependability</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="90"></div>
+                                        <div class="pr-skill-name">Quick & fast Learner</div>
+                                    </li>
+                                    
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-experince image-bg" id="mh-experience">
+        <div class="img-color-overlay" style="background-color: rgba(255, 255, 255, 0.8);">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-education">
+                            <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                            <div class="mh-education-deatils">
+                                <!-- Education Institutes-->
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="background-color: white">
+                                        <h4>Anil Neerukonda institute of technology and sciencesCollege</h4>
+                                        <p style="color: #2196F3"><b>B.Tech , Electronics & communication  Engineering</b></p>
+                                        <div class="mh-eduyear">2014 - 2018</div>
+                                        
+                                    </div>
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s" style="background-color: white">
+                                        <h4>Andhra Polytechnic college</h4>
+                                        <p style="color: #2196F3"><b>Diploma</b></p>
+                                        <div class="mh-eduyear">2010 - 2014</div>
+                                        
+                                    </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mh-portfolio" id="mh-portfolio">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                    <h3 style="color: #100e17">Projects</h3>
+                </div>
+                <div class="part col-sm-12">
+                    <div class="portfolio-nav col-sm-12" id="filter-button">
+                        <ul>
+                            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.0s"> <span>All Projects</span></li>
+
+                            <li data-filter=".000111" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Data Science</span></li>
+                            
+                            <li data-filter=".930825" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Web developing</span></li>
+                            
+                            <li data-filter=".526734" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Machine Learning</span></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <div class="portfolioContainer row">
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 526734">
+                                    <figure>
+                                        <img src="/static/project_images/car.png" alt="project_images/COVIDOWID.PNG">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">used car price prdiction</h5>
+                                            <a data-fancybox data-src="#42"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 930825">
+                                    <figure>
+                                        <img src="/static/project_images/blog.png" alt="project_images/blog.png">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">blog</h5>
+                                            <a data-fancybox data-src="#34"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 930825">
+                                    <figure>
+                                        <img src="static/project_images/ecom.png" alt="project_images/ecom.PNG">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Ecommerce webapp with django</h5>
+                                            <a data-fancybox data-src="#44"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 930825">
+                                    <figure>
+                                        <img src="/static/project_images/Email.png" alt="project_images/email.PNG">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">email webapp</h5>
+                                            <a data-fancybox data-src="#19"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 930825">
+                                    <figure>
+                                        <img src="/static/project_images/ipl.png" alt="project_images/ipl.png">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Ipl data analysis  and Visualisation</h5>
+                                            <a data-fancybox data-src="#12"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 000111">
+                                    <figure>
+                                        <img src="/static/project_images/mall.jpg" alt="project_images/mall.PNG">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Shopping mall analysis</h5>
+                                            <a data-fancybox data-src="#25"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 930825">
+                                    <figure>
+                                        <img src="/static/project_images/portfolio.png" alt="project_images/portfolio.png">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">Portfolio web app with simple views method</h5>
+                                            <a data-fancybox data-src="#48"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            
+                            
+                        </div> <!-- End: .grid .project-gallery -->
+                    </div> <!-- End: .grid .project-gallery -->
+                </div> <!-- End: .part -->
+            </div> <!-- End: .row -->
+        </div>
+        
+            <div class="mh-portfolio-modal" id="42" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Used Car price Prediction</h2>
+                            <p><li>built and trained Random forest regression with data and predicted the car price .</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>pandas</span></li>
+                                    
+                                        <li><span>Numpy</span></li>
+                                    
+                                        <li><span>scikit</span></li>
+                                    
+                                        <li><span>matplotlib</span></li>
+
+                                        <li><span>seaborn</span></li>
+                                    
+                                        <li><span>Random forest regressiont</span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    <li><a href="https://github.com/saiganesh-d/Car-price-predict" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                </ul>
+                                <a href="http://saiagnesh.herokuapp.com/sales" class="btn btn-fill" target="_blank">Live Demo</a>
+                            <br><br>
+                            
+                            <br>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="34" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Blog</h2>
+                            <p><li>A blog app, where users can read and write.</p>
+                                <p><li>built with Django</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Django</span></li>
+                                    
+                                    <li><span>Bootstrap</span></li>
+                                    
+                                    <li><span>HTML 5</span></li>
+                                    
+                                    <li><span>CSS 3</span></li>
+                                    
+                                    <li><span>Javascript</span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/blog" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                            <br><br>
+                            
+                                <a href="http://saiagnesh.herokuapp.com/blog" class="btn btn-fill" target="_blank">Live Demo</a>
+                                
+                            
+                            <br>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="44" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Ecommerce web app</h2>
+                            <p><li>An ecommerce webapp with auctions, listings, wishlist etc functions</p>
+                               
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Django</span></li>
+                                    
+                                    <li><span>Bootstrap</span></li>
+                                    
+                                    <li><span>HTML 5</span></li>
+                                    
+                                    <li><span>CSS 3</span></li>
+                                    
+                                    <li><span>Javascript</span></li>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/commerce-with-django" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                            <br><br>
+                            
+                                
+                            
+                            <br>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="19" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>mail</h2>
+                            <p><li>Mail clone project. 
+                               <li> mainly used Javascript to get inbox , sent and archived mails in same page</p>
+                                
+                            <div class="mh-about-tag">
+                                <ul>
+                                    
+                                        <li><span>HTML 5</span></li>
+                                    
+                                        <li><span>CSS 3</span></li>
+                                    
+                                        <li><span>Javascript</span></li>
+
+                                        <li><span>django</span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/CS50W-mail-with-django-html-js" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                            <br><br>
+                            
+                                <a href="https://saiganesh196.herokuapp.com" class="btn btn-fill" target="_blank">Live Demo</a>
+                            
+                            <br>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="12" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Ipl Data analysis</h2>
+                            <p><li>performed data analaysis on ipl data set and visualized</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    
+                                        
+                                    
+                                        <li><span>HTML 5</span></li>
+                                    
+                                        <li><span>CSS 3</span></li>
+                                    
+                                        <li><span>Django</span></li>
+
+                                        <li><span>pandas</span></li>
+                                        <li><span>Google charts</span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/ipl-analysis-webapp" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                            
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="25" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Mall Analysis</h2>
+                            <h4>bussiness problem</h4>
+                            <p><li>As we already know that VisakhaPatnam is fast developing city and a smart city as all propertydevelopers wants to invest in this type of city.The objective of this capstone project is to analysesand select the best locations in the city of VisakhaPatnam, India to open a new shopping mall. Usingdata science methodology and machine learning techniques like clustering, this project aims toprovide solutions to answer the business
+                                <li><h4>Question:</h4>
+                                    In the city of VisakhaPatnam,India, if a property developer is looking to open a newshopping mall, where would you recommend that they open it?
+                                    <li>Used webscrapping to get data from wikipedia
+                                                                                
+                            </p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Python</span></li>
+                                    <li><span>K-means Clustering</span></li>
+                                    <li><span>unsupervised learning</span></li>
+                                    <li><span>Foursquare api</span></li>
+                                    <li><span>folium</span></li>
+
+                                    <li><span>beautifulsoup</span></li>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/MALL-analysis" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                                                    <h4><p> Used Meathodology</h4>Firstly, we need to get the list of neighborhoods in the city of VisakhaPatnam. Fortunately, the list is available in the Wikipedia page (https://en.wikipedia.org/wiki/Category:Neighbourhoodsin_Visakhapatnam). We will do web scraping using Python requests and beautifulsoup packages to extract the list of neighborhoods data. However, this is just a list of names. We need to get the geographical coordinates in the form of latitude and longitude in order to be able to use Foursquare API. To do so, we will use the wonderful Geocoder package that will allow us to convert address into geographical coordinates in the form of latitude and longitude. After gathering the data, we will populate the data into a pandas DataFrame and then visualize the neighborhoods in a map using Folium package. This allows us to perform a sanity check to make sure that the geographical coordinates data returned by Geocoder are correctly plotted in the city of VisakhaPatnam. Next, we will use Foursquare API to get the top 100 venues that are within a radius of 2000 meters. We need to register a Foursquare Developer Account in order to obtain the Foursquare ID and Foursquare secret key. We then make API calls to Foursquare passing in the geographical coordinates of the neighborhoods in a Python loop. Foursquare will return the venue data in JSON format and we will extract the venue name, venue category, venue latitude and longitude. With the data, we can check how many venues were returned for each neighborhood and examine how many unique categories can be curated from all the returned venues. Then, we will analyses each neighborhood by grouping the rows by neighborhood and taking the mean of the frequency of occurrence of each venue category. By doing so, we are also preparing the data for use in clustering. Since we are analyzing the “Shopping Mall” data, we will filter the “Shopping Mall” as venue category for the neighborhoods. Lastly, we will perform clustering on the data by using k-means clustering. K-means clustering algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible. It is one of the simplest and popular unsupervised machine learning algorithms and is particularly suited to solve the problem for this project. We will cluster the neighborhoods into 3 clusters based on their frequency of occurrence for “Shopping Mall”. The results will allow us to identify which neighborhoods have higher concentration of shopping malls while which neighborhoods have fewer number of shopping malls.
+Based on the occurrence of shopping malls in different neighborhoods, it will help us to answer the question as to which neighborhoods are most suitable to open new shopping malls. </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="mh-portfolio-modal" id="48" style="background-color: white;">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                         <div class="col-sm-5">
+                            <h2>Portfolio website with views method</h2>
+                            <p><li>Portfolio webapp(not present viewing app).
+<li>I created another portfolio webapp with basic views and routing in part of teaching my students.</p>
+                            <div class="mh-about-tag">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                            
+                                <ul class="social-icon">
+                                    
+                                        <li><a href="https://github.com/saiganesh-d/Portfolio" title="Visit Repository" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
+                                    
+                                </ul>
+                            
+                            <br><br>
+                            
+                                <a href="iamdsg.herokuapp.com" class="btn btn-fill" target="_blank">Live Demo</a>
+                            
+                            <br>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+
+    <section id="mh-certification"  class="mh-experince image-bg">
+        <div class="img-color-overlay" style="background-color: rgba(255, 255, 255, 0.8);">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12">
+                        <div class="mh-education">
+                            <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s" >Seminars / Courses</h3>
+                            <div class="mh-education-deatils">
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="background-color: white">
+                                        <h2 ><a style="color: rgb(30, 21, 78);" href="https://www.credly.com/badges/92c63c8d-5ebf-414d-9da0-734349ca5d33">Data Science Professional Certificate </a> </h2>
+                                        <h5>Issued by Coursera</h5>
+                                        <h5>Authorized by IBM</h5>
+                                        <div class="mh-about-tag">
+                                            <ul>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/e6f2d29c-678e-4bc2-879a-2d914c23fec6" target="_blank"><span> Data science orientation</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/d43e7aac-c3d6-4cc6-80da-ed0063abea9f" target="_blank"><span>Tools Data science</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/f5e7f3eb-5230-437a-b1b3-09de17ba3c1e" target="_blank"><span>Data science Meathodology</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/28b38aba-eb6f-4468-8773-22e96479083e" target="_blank"><span>Python for Data science and AI</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/92dcbb64-46b4-43b7-b8ec-39180b277c55" target="_blank"><span>Databases and SQL for Data Science</span> </a></li>
+                                       
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/f45553e4-db5d-486e-a436-7121461c8a04" target="_blank"><span>Data Visualization with Python</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/b527f920-7b9b-46c8-8993-b9be9fadfbf3" target="_blank"><span>Databases and SQL for Data Science</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/f45553e4-db5d-486e-a436-7121461c8a04" target="_blank"><span>Data Visualization with Python</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/b527f920-7b9b-46c8-8993-b9be9fadfbf3" target="_blank"><span>Data Analysis with Python </span></a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/84d1a061-3a21-4eae-aa13-1487df2c84e9" target="_blank"><span>Machine Learning with Python </span></a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/badges/ae7e54c9-7178-4fe0-8e8f-d5ae3c98175a" target="_blank"><span>Applied Data Science Capstone</span> </a></li>
+
+                                    </div>
+                                        <div class="mh-eduyear">August 2020</div>
+
+                                        
+
+                                    </div>
+
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="background-color: white">
+                                        <h2 ><a style="color: rgb(30, 21, 78);" href="https://www.coursera.org/account/accomplishments/professional-cert/CALVSV6GW3K2">IBM AI Engineering </a> </h2>
+                                        <h5>Issued by Coursera</h5>
+                                        <h5>Authorized by IBM</h5>
+                                        <div class="mh-about-tag">
+                                        <ul>
+                                            <li style="color: #2196F3"><a href="https://www.credly.com/badges/84d1a061-3a21-4eae-aa13-1487df2c84e9" target="_blank"><span>Machine Learning with Python </span></a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/earner/earned/badge/456d5105-5871-4bf7-a6f1-291253ecb1b0" target="_blank"><span>Scalable Machine Learning on Big Data using Apache Spark</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/earner/earned/badge/90a8c2a2-7a78-496f-af5a-098007c65e06" target="_blank"><span> Introduction to Deep Learning & Neural Networks with Keras</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/earner/earned/badge/90a8c2a2-7a78-496f-af5a-098007c65e06" target="_blank"><span>Deep Neural Networks with PyTorch</span> </a></li>
+                                        <li style="color: #2196F3"><a href="https://www.credly.com/earner/earned/badge/dc7d11e2-5ccc-4efb-bffa-e2b028cf36b1" target="_blank"><span>Building Deep Learning Models with TensorFlow </span></a></li>
+ 
+                                        
+                                    </ul>
+                                </div>
+                                <div class="mh-eduyear">October 2020</div>
+                                    </div>
+
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="background-color: white">
+                                        <h2 ><a style="color: rgb(30, 21, 78);" href="https://credentials.edx.org/credentials/ea0b0fd576cb497989f4d5ac81d98e5d/">Computer Science for Web Programming</a> </h2>
+                                        <h5>Issued by Edx</h5>
+                                        <h5>Program by HarvardX</h5>
+                                        <div class="mh-about-tag">
+                                            <ul>
+                                                <li><a href="https://courses.edx.org/certificates/dad94bb818094017ab5d00af9843a0d1" target="_blank"><span>CS50: CS50's Introduction to Computer Science</span></a></li>
+                                                <li><a href="https://courses.edx.org/certificates/c010b01451044f01992189e7fa24ecf7" target="_blank"><span>CS50W: CS50's Web Programming with Python and JavaScript</span></a></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="mh-eduyear">June 2020</div>
+
+                                        
+
+                                    </div>
+
+                                
+                                    <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s" style="background-color: white">
+                                        <h4>Cyber Security Technical Summit</h4>
+                                        <p style="color: #2196F3"><b>IBM, CSU &amp; ITIC</b></p>
+                                        <div class="mh-eduyear">22 June, 2020</div>
+
+                                        
+
+                                    </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+    <footer class="mh-footer mh-footer-3" id="mh-contact">
+        <center> 
+            
+            <p>Published on July 27th | © 2021 <a href="https://www.linkedin.com/in/sai-ganesh-dokala-052581154/">Sai Ganesh Dokala</a></p>
+            
+        </center>
+        
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/static/assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="/static/assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="/static/assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="/static/assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="/static/assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="/static/assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="/static/assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="/static/assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="/static/assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="/static/assets/plugins/js/jquery.fancybox.min.js"></script>
+    
+    <!-- isotope js-->
+    <script src="/static/assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="/static/assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    
+    <script src="/static/assets/js/custom-scripts.js"></script>
+</body>
+</html>

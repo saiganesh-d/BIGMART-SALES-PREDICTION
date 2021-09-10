@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sai Ganesh Dokala</title>
+    <!-- Required meta tags -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Sai Ganesh Dokala's web portfolio" />
+    <meta name="keywords" content="resume, cv, portfolio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="/static/assets/images/LOGO2.png">
+
+    <!-- Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{% static 'assets/icons/font-awesome-4.7.0/css/font-awesome.min.css' %}">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{'% static /assets/plugins/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="{% static '/assets/plugins/css/animate.css' %}">
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="{% static '/assets/plugins/css/owl.css'%}">
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="/static/assets/plugins/css/jquery.fancybox.min.css">
+
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="{% static 'assets/css/styles.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+
+    <!-- Colors -->
+    <link rel="stylesheet" href="{% static 'assets/css/colors/blue-munsell.css' %}" title="blue-munsell">
+
+    <style>
+        h2, h3, h4, li, p {
+            color: #100e17;
+        }
+        label{
+            text-align: right;
+            width: 300px;
+        }
+        select{
+            color: black;
+        }
+        @media only screen and (max-width: 575px) {
+        label{
+            text-align: left;
+            width: auto;
+        }
+        select{
+            
+            display: inline-block;
+        }
+        }
+    </style>
+    
+</head>
+<body>
+    <!-- Start Loader -->
+    <div class="section-loader">
+        <div class="loader">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- End Loader -->
+   
+
+   <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header" style="background-color: rgba(255, 255, 255, 0.8)">
+
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mh-nav nav-btn justify-content-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon">
+                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bricks" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 .5A.5.5 0 0 1 .5 0h15a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H14v2h1.5a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 .5-.5H2v-2H.5a.5.5 0 0 1-.5-.5v-3A.5.5 0 0 1 .5 6H2V4H.5a.5.5 0 0 1-.5-.5v-3zM3 4v2h4.5V4H3zm5.5 0v2H13V4H8.5zM3 10v2h4.5v-2H3zm5.5 0v2H13v-2H8.5zM1 1v2h3.5V1H1zm4.5 0v2H15V1H5.5zM1 7v2h3.5V7H1zm4.5 0v2h5V7h-5zm6 0v2H15V7h-3.5zM1 13v2h3.5v-2H1zm4.5 0v2h5v-2h-5zm6 0v2H15v-2h-3.5z"/>
+                            </svg>
+                        </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:white;">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#mh-Introduction">Prediction</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-home">Profile</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-Bussiness_problem">Bussiness problem</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-Meathodology">Meathodology</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-Meathodology1" >Libraries</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-Meathodology2" >Conclusion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-Meathodology3" >Future Scope</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{%url 'home'%}"  target="_blank">Portfolio</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="/static/assets/sai_ganesh_resume.pdf" target="_blank">Resume</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="mh-Introduction" id="mh-Introduction">
+        <div class="container">
+            <br><br><br><br><br>
+                <div class="mh-about-inner">
+                    <form action="{% url 'sales' %}" method="POST">
+                        {% csrf_token %}
+                        <h2>Predictive analysis</h2>
+                        <div class="john">
+                            <div class="ss" >
+                                <label class="jj" for="Item_Identifier">Item_Identifier:</label>
+                                <input style="border-radius: 20px;" id="Year" name="Item_Identifier" required="required">
+                                </div>
+                            <div class="ss" >
+                                <label class="jj" style="  " for="Item_Identifier">Item_Weight:</label>
+                                <input style="border-radius: 20px;" id="Year" type="number" step="any" name="Item_Weight" required="required">
+                                </div>
+                                <div class="ss">
+                                    <label style="display: inline-block;  ">Item_Fat_Type?</label>
+                                    <select   name="Item_Fat_Content" required="required">
+                                        <option value="0">LOW FAT</option>
+                                        <option value="1">REGULAR</option>
+                                        
+                                    </select>
+                                </div>
+                           
+                            <div class="ss" >
+                            <label  style="display: inline-block; ">Item_Visibility</label>
+                            <input style="border-radius: 20px;" id="second" type="number" step="any" name="Item_Visibility" required="required">
+                            </div>   
+                            <p>plz categorize items as food, drinks and non consumable</p>
+                            <div class="ss" >
+                                <label style="display: inline-block; ">Item_Type?</label>
+                                
+                                <select name="Item_Type" id="fuel" required="required">
+                                    <option value="0">Baking Goods</option>
+                                    <option value="1">Breads</option>
+                                    <option value="2">Breakfast</option>
+                                    <option value="3">Canned</option>
+                                    <option value="4">Dairy</option>
+                                    <option value="5">Frozen Foods</option>
+                                    <option value="6">Fruits and Vegetables</option>
+                                    <option value="7">Hard Drinks</option>
+                                    <option value="8">Health and Hygiene</option>
+                                    <option value="9">Household</option>
+                                    <option value="10">Meat</option>
+                                    <option value="11">Others</option>
+                                    <option value="12">Seafood</option>
+                                    <option value="13">Snack Foods</option>
+                                    <option value="14">Soft Drinks</option>
+                                    <option value="15">Starchy Foods</option>
+                                    
+                                </select>
+                                </div> 
+                            <div class="ss" >
+                            <label style="display: inline-block; ">Item_MRP?</label>
+                            <input style="border-radius: 20px;" id="second" type="float" step="any" name="Item_MRP" required="required">
+                            </div>
+                            <div class="ss" >
+                                <label style="display: inline-block;  ">Outlet_Identifier?</label>
+                                <select name="Outlet_Identifier" id="fuel" required="required">
+                                    <option value="10">OUT010 </option>   
+                                    <option value="13">OUT013 </option>
+                                    <option value="17">OUT017 </option>
+                                    <option value="18">OUT018</option>
+                                    <option value="19">OUT019 </option>
+                                    <option value="27">OUT027 </option>
+                                    <option value="35">OUT035</option>
+                                    <option value="45">OUT045</option>
+                                    <option value="46">OUT046</option>
+                                    <option value="49">OUT049</option>
+                                    
+                                </select>
+                                </div>
+                            <div class="ss" >
+                                <label style="display: inline-block;  ">Outlet_Establishment_Year?</label>
+                            <input style="border-radius: 20px;" id="fourth" name="Outlet_Establishment_Year" required="required">
+                            </div>
+                            <div class="ss" >
+                                <label style="display: inline-block;  ">Outlet_Size</label>
+                                <select name="Outlet_Size" id="research" required="required">
+                                    <option value="2">small</option>
+                                    <option value="1">medium</option>
+                                    <option value="0">High</option>
+                                  
+                                </select>
+                                
+                                </div>
+                                             
+                            <div class="ss" >
+                                <label style="display: inline-block; ">Outlet_Location_Type?</label>
+                                <select name="Outlet_Location_Type" id="fuel" required="required">
+                                    <option value="0">tier1 </option>   
+                                    <option value="1">tier2 </option>
+                                    <option value="2">tier3 </option>
+                                </select>
+                            </div>
+                            
+                            
+                               
+                                    <div class="ss" >
+                                        <label style="display: inline-block; ">Outlet_Type</label>
+                                        <select name="Outlet_Type" id="resea" required="required">
+                                            <option value="0">Grocery</option>
+                                            <option value="1">supermarket type1</option>
+                                            <option value="2">supermarket type2</option>
+                                            <option value="3">supermarket type3</option>
+                                        </select>
+                                        </div>
+                                        
+                                          
+                           
+                            <br><br><button style="position: absolute; left: 30%;" id="sub" type="submit " value="submit">Calculate the Selling Price</button>
+                            
+                           
+                               
+                           
+                       
+                        </div>
+                    
+                    </form>
+                    <br><br><h3>{{ prediction}}<h3>
+            
+                       
+                              </div>
+
+                </div>
+            
+       
+    </section>
+    
+    <section class="mh-home image-bg" id="mh-home">
+        <div style="background-color: rgba(255, 255, 255, 0.9);">
+            <div class="container">
+                <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
+                    <div class="col-sm-6">
+                        <div class="mh-header-info">
+                            <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                <span style="color: white">Hello, I'm</span>
+                            </div>
+
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Sai Ganesh Dokala</h2>
+                            <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"></h4>
+
+                            <ul>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i style="font-size: 20px;" class="fa fa-envelope fa-1x"></i><a href="mailto:saiganesh94dokala@gmail.com">saiganesh94dokala@gmail.com</a></li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i style="font-size: 20px;" class="fa fa-phone fa-1x"></i><a>+91 9441784016</a></li>
+                                <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i style="font-size: 20px;" class="fa fa-map-marker fa-1x"></i><a>India</a></li>
+                            </ul>
+
+                            <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <li><a href="https://www.linkedin.com/in/sai-ganesh-dokala-052581154//" target="_blank"><i style="font-size: 25px;" class="fa fa-linkedin fa-5x"></i></a></li>
+                                <li><a href="https://github.com/saiganesh-d" target="_blank"><i style="font-size: 25px;" class="fa fa-github fa-5x"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                            <div class="img">
+                                <img src="/static/assets/images/rsz_myprofile1.png" alt="Chiraag Kakar" width="360px">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+                
+                <section class="mh-Bussiness_problem" id="mh-Bussiness_problem">
+                    <div class="container">
+                        <div class="row section-separator">
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Bussines Problem</h2>
+                                        <p>“To find out what role certain properties of an item play and how they affect their sales by understanding Big Mart sales.”
+                                            In order to help Big Mart, achieve this goal, a predictive model can be built to find out the sale of every item for every store. Also, the key factors that can increase their sales and what changes could be made to the product or store’s characteristics.
+                                            
+                                            </p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-12 col-md-6">
+                                <div class="mh-about-inner">
+                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Solution?</h2>
+                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">
+                                        
+                                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Using Machine Learning  regression algorithms to predict </p>
+                                        
+                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="mh-Meathodology" id="mh-Meathodology">
+                    <div class="container">
+                        <div class="row section-separator">
+                            <div class="col-sm-12 col-md-6">
+                                 <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                   
+                                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">steps</h2>
+                                           <ul>
+                                               <li><h3>1.Data Gathering</h3></li>
+                                               <p>Data source: https://www.kaggle.com/brijbhushannanda1979/bigmart-sales-data
+                                                Train and Test data are stored in .csv format.
+                                                </p>
+                                                <li><h3>2.Raw Data Validation</h3></li>
+                                               <p>Validations like checking for zero standard deviation for all the columns,
+                                                    checking for complete missing values in any columns, etc. These are required 
+                                                    because The attributes which contains these are of no use. It will not play role 
+                                                    in contributing the sales of an item from respective outlets.
+                                                </p>
+                                                <li><h3>3.Data Transformation</h3></li>
+                                               <p>Here, ‘Item Weight’ and “Outlet Type’ attributes contain the missing values.
+                                                    So they are filled in both train set as well as test set with supported appropriate data types. 
+                                                </p>
+                                                <li><h3>4.Data Preprocessing</h3></li>
+                                               <p>In data preprocessing all the process required before sending the data for model building are performed.
+                                                    Like, here the ‘Item Visibility’ attributes is having some values equal to 0, which is not appropriate 
+                                                    because if item is present in the market, then how its visibility can be 0. So, it has been replaced with the 
+                                                    average value of the item visibility of respective ‘Item Identifier’ category. New attributes was added named 
+                                                    ‘’Outlet years”, where given establishment year is subtracted from the current year. New “Item Type” attribute was 
+                                                    added which just take first two character of the Item Identifier which indicates the types of the items. Then mapping 
+                                                    of “Fat content” is done based on ‘Low’, ‘Reg’
+                                                </p>
+                                                <li><h3>5.New feature generation</h3></li>
+                                                <p>We can obtain new features like creation of item type as 3 items of column,create mrp bins column
+                                                    for range of item mrp and every item have differentnumber in item type, deriving it as a new feature
+                                                 </p>
+
+                                           </ul>
+                                            </p></div></div>
+                            
+                                            <div class="col-sm-12 col-md-6">
+                                                <div class="mh-about-inner">
+                                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Steps</h2>
+                                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">
+                                                            <h3>6.feature Engineering</h3></li>
+                                                            <p>in this step, we do one hot encoding to object type columns
+                                                             </p>
+                                                             <h3>8.Model Building</h3></li>
+                                                             <p>This step involve Model building with differnt paramters for differnt algorithms
+                                                                 . algorithms tried for this problem is Linear Regression,Random Forest regressorm
+                                                                 Decision Tree, Lgboost, grdient, Voting regressor, extratrees, XGBosst regressor
+                                                              </p>
+                                                            <h3>7.Evaluting model</h3></li>
+                                                            <p>this step involves evaluting model bt claclulating rmse, cv, mae, mse, r2 score, adj r2
+                                                                observation from all models, Voting regressor with gg, lg extra tree gives best
+                                                             </p>
+                                                            <h3>8.Model saving and django setup</h3></li>
+                                                            <p>in this step, we have to save model either pkl or sav format .
+                                                                Next Creating Django project to deploy the model
+                                                             </p>
+                                                            <h3>9.Github</h3></li>
+                                                            <p>whole project pushed to github
+                                                             </p>
+                                                            <h3>10.Deploying into heroku</h3></li>
+                                                            <p>in this step, we do one hot encoding to object type columns
+                                                             </p>
+                                                        
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="mh-Meathodology1" id="mh-Meathodology1">
+                                    <div class="container">
+                                        <div class="row section-separator">
+                                            <div class="col-sm-12 col-md-6">
+                                                 <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                                    <div class="mh-about-inner">   
+                                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">libraries</h2>
+                                                    <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s"></div>    
+                                                    <div class="mh-about-tag">
+                                                    <ul>
+                                                                           <li> <li><span>Pandas</span></li>
+                                
+                                                                           <li><span>Numpy</span></li>
+                                                                       
+                                                                           <li><span>matplotlib</span></li>
+                                                                       
+                                                                           <li><span>Seaborn</span></li>  
+                                                                      
+                                       
+                                                                       <li><span>sklearn</span></li>
+                                                                       
+                                                                       <li><span>Klib</span></li>
+                                                                       
+                                                                       
+                                                                      
+                                                                   </ul>
+                                                                   
+                                                    </div>   
+                                                           
+                                                    </div></div></div>
+                                            
+                                                            <div class="col-sm-12 col-md-6">
+                                                                <div class="mh-about-inner">
+                                                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">algorithms</h2>
+                                                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">
+                                                                        <ul>
+                                                                           <li> <li><span>Linear regression</span></li>
+                                
+                                                                           <li><span>RandomForest Regression</span></li>
+                                                                       
+                                                                           <li><span>DEcision Tree Regressor</span></li>
+                                                                       
+                                                                           <li><span>ExtraTreesRegressor</span></li>  
+                                                                      
+                                       
+                                                                       <li><span>GradientBoostingRegressor</span></li>
+                                                                       
+                                                                       <li><span>VotingRegressor</span></li>
+                                                                       
+                                                                       <li><span>XgBoost</span></li>
+                                       
+                                                                  
+                                                                       
+                                                                       <li><span>Django</span></li>
+                                                                       
+                                                                      
+                                                                   </ul>
+                                                                   
+                                                                        
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </section>
+                                    <section class="mh-Meathodology2" id="mh-Meathodology2">
+                                        <div class="container">
+                                                <div class="mh-about-inner">
+                                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Conclusion</h2>
+                                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">
+                                                            <ul>
+                                                                 <li>In this project, basics of machine learning and the associated data processing
+                                                                    and modeling algorithms have been described, followed by their application for 
+                                                                    the task of sales prediction in Big Mart shopping centers at different locations.
+                                                                    On implementation, the prediction results show the correlation among different attributes
+                                                                    considered and how a particular location of medium size recorded the highest sales,
+                                                                    suggesting that other shopping locations should follow similar patterns for improved sales.
+                                                                    Also it can be concluded that more locations should be switched or shifted to Tier-3 in outlet type 
+                                                                    “Supermarket Type3” to increase the sales of products at Big Mart. Any one-stop-shopping-center 
+                                                                    like Big Mart can benefit from this model by being able to predict its items’ future sales at different locations.
+                                                                 </li>
+                                                            </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                    </section>
+                                    <section class="mh-Meathodology3" id="mh-Meathodology3">
+                                        <div class="container">
+                                                <div class="mh-about-inner">
+                                                    <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">Future Scope</h2>
+                                                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">
+                                                            <ul>
+                                                                 <li>Multiple instances parameters and various factors can be used to make this sales 
+                                                                     prediction more innovative and successful. Accuracy, which plays a key role in 
+                                                                     prediction-based systems, can be significantly increased as the number of parameters 
+                                                                     used are increased. Also, a look into how the sub-models work can lead to increase in
+                                                                      productivity of system. The project can be further
+                                                                    collaborated in a web-based application or in any device supported with an in-built intelligence 
+                                                                    by virtue of Internet of Things (IoT), to be more feasible for use. Various stakeholders concerned
+                                                                     with sales information can also provide more inputs to help in hypothesis generation and more instances 
+                                                                     can be taken into consideration such that more precise results that are closer to real world situations 
+                                                                     are generated. When combined with effective data mining methods and properties, the traditional means could 
+                                                                     be seen to make a higher and positive effect on the overall development of corporation’s tasks on the whole.
+                                                                      One of the main highlights is more expressive regression outputs, which are more understandable bounded with
+                                                                       some of accuracy. Moreover, the flexibility of the proposed approach can be increased with variants at a very
+                                                                        appropriate stage of regression model-building. There is a further need of experiments for proper measurements 
+                                                                        of both accuracy and resource efficiency to assess and optimize correctly.
+                                                                    
+                                                                 </li>
+                                                            </ul>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                    </section>
+                                
+
+
+
+
+
+
+
+        
+    <script src="/static/assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="/static/assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="/static/assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="/static/assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="/static/assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="/static/assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="/static/assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="/static/assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="/static/assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="/static/assets/plugins/js/jquery.fancybox.min.js"></script>
+    
+    <!-- isotope js-->
+    <script src="/static/assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="/static/assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    
+    <script src="/static/assets/js/custom-scripts.js"></script>
+
+</body>
+</html>
