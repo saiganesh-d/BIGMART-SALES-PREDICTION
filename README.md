@@ -28,12 +28,12 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 #### 1) Training:
 
-![alt-text](https://github.com/shivanshjayara/BigMart_Sales_Prediction/blob/master/Screenshots/Training_Result.jpg)
+![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/master/screenshots/img.png)
 
 
 #### 2) Project video:
 
-![alt-text](https://github.com/shivanshjayara/BigMart_Sales_Prediction/blob/master/Screenshots/screen.gif)
+![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/master/screenshots/saa.gif)
 
 
 #### 3) Home Page:
@@ -43,4 +43,4 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 #### 4) Result Prediction page:
 
-![alt-text](https://github.com/shivanshjayara/BigMart_Sales_Prediction/blob/master/Screenshots/Prediction_Result_Page.jpg)
+![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/master/screenshots/Screenshot(2).png)
