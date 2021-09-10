@@ -28,11 +28,11 @@ The data-set is also based on hypotheses of store level and product level. Where
  * 2. Data transformation
  * 3. Data transformation
  * 4. New feature Generation
- * 5.Feature Engineering
- * 6.Model Building
- * 7.Evaluting Model
+ * 5. Feature Engineering
+ * 6. Model Building
+ * 7. Evaluting Model
  * 8. django setup
- * 9.Push to Github
+ * 9. Push to Github
  * 10. deploying
 
 # Snippets of Project
