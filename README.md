@@ -28,7 +28,7 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 #### 1) Training:
 
-![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/master/screenshots/img.png)
+![alt-text]https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/main/screenshots/img.png
 
 
 #### 2) Project video:
