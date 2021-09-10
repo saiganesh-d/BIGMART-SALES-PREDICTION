@@ -24,8 +24,8 @@ BigMart has collected sales data for 1559 products across 10 stores in different
 The data-set is also based on hypotheses of store level and product level. Where store level involves attributes like: city, population density, store capacity, location, etc and the product level hypotheses involves attributes like: brand, advertisement, promotional offer, etc.
 
 # Steps to involved in model building
- Markup : 1. Data Loading
-          2. Data transformation
+ * 1. Data Loading
+          * 2. Data transformation
           3. Data transformation
           4. New feature Generation
           5.Feature Engineering
@@ -45,9 +45,7 @@ The data-set is also based on hypotheses of store level and product level. Where
 
 #### 2) Home Page:
 
-![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/main/screenshots/Screenshot(2).png)
+![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/main/screenshots/Screenshot%20(2).png)
 
 
-#### 3) Result Prediction page:
 
-![alt-text](https://github.com/saiganesh-d/BIGMART-SALES-PREDICTION/blob/main/screenshots/Screenshot(2).png)
