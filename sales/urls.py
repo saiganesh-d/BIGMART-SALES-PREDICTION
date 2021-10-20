@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.sales,name="sales"),
     path('home',views.home,name="home")
+    path('home',views.predict,name="home")
 ]
